@@ -569,7 +569,7 @@ header .container{
     color: #E06733;
     font-size: 20px;
     font-weight: 700;    
-    margin-left: 300px;
+    margin-left: 10px;
     margin-bottom: 40px;
     transition: 0.3s;
 }
@@ -586,7 +586,7 @@ header .container{
     height: 175px;
     margin-left: 310px;
 }
-.prices-button{
+.prices-buttons{
     display: flex;
 }
 @media(max-width:768px){
@@ -605,7 +605,7 @@ header .container{
         margin-bottom: 30px;
     }
     .prices-div2 button{
-        margin-left: 130px;
+        margin-left: 30px;
         margin-bottom: 30px;
     }
     .prices-div2 img{
@@ -650,8 +650,8 @@ header .container{
         display: none;
     }
     .prices-items{
-        max-width: 224px;
-        max-height: 235px;
+        min-width: 224px;
+        min-height: 235px;
         padding: 29px 22px 15px;
         margin-bottom: 19px;
     }
@@ -747,12 +747,12 @@ header .container{
         padding: 0;
     }
     .selector-item{
-        margin-top: 100px;
-        margin-bottom: 250px;
+        margin: 30px auto 30px;
     }
-    .woman__img{
-        max-width: 200px;
+    .man__img{
+        max-width: 300px;
         order: 1;
+        margin-top: 30px;
         margin-left: 15px;
     }
 }
@@ -766,14 +766,15 @@ header .container{
     .selector-item{
         max-width: 300px;
         max-height: 50px;
-        margin: 80px auto 132px;
+        margin: 30px auto 30px;
     }
     .arrow2{
         margin-right: 20px;
     }
-    .woman__img{
-        max-width: 100px;
+    .man__img{
+        max-width: 300px;
         margin-left: 0;
+        margin-top: 30px;
     }
 }
 /*-----------------------------CONTACTS------------------------------*/
@@ -1001,3 +1002,4 @@ footer a{
     background-color: #e0673390;
 }
 /*-----------------------------JS------------------------------*/
+
