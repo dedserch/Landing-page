@@ -15,7 +15,7 @@ body{
     right: 0;
     width: 100%;
 }
-@media(max-width:380px){
+@media(max-width:576px){
     #burger{
         display: block;
     }
@@ -131,7 +131,7 @@ body{
         border-right: 15px solid rgba(255, 255, 255, 0);
     }
 }
-@media(max-width:380px){
+@media(max-width:576px){
     .container{
         width: 330px;
         margin: 0 auto;
@@ -266,7 +266,7 @@ header .container{
         padding-bottom: 60px;
     }
 }
-@media(max-width:380px){
+@media(max-width:576px){
     .header-nav{
         display: none;
     }
@@ -350,7 +350,7 @@ header .container{
         max-width: 250px;
     }
 }
-@media(max-width:380px){
+@media(max-width:576px){
     #about .container{
         padding:30px 0;
     }
@@ -469,7 +469,7 @@ header .container{
         margin-bottom: 20px;
     }
 }
-@media(max-width:380px){
+@media(max-width:576px){
     #service-header{
         flex-wrap: wrap;
         padding-top: 30px;
@@ -615,7 +615,7 @@ header .container{
         padding-bottom: 88px;
     }
 }
-@media(max-width:380px){
+@media(max-width:576px){
     #prices .container{
         flex-wrap: wrap;
         justify-content: center;
@@ -756,7 +756,7 @@ header .container{
         margin-left: 15px;
     }
 }
-@media(max-width:380px){
+@media(max-width:576px){
     #contacts .container{
         padding-top: 25px;
     }
@@ -813,7 +813,7 @@ footer a{
         padding: 33px 0;
     }
 }
-@media(max-width:380px){
+@media(max-width:576px){
     footer .container{
         padding: 22px 0 7px;
     }
